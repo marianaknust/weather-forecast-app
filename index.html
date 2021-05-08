@@ -12,8 +12,57 @@
     <title>Weather-Forecast App</title>
 </head>
 <body>
-   
-    
+<div class="container">
+    <form id="search-city">
+        <div class="row">
+            <input type="search" class="col-4 insert-city" placeholder="Enter City" autofocus=on autocomplete="off" />
+           
+            <button class="col-4 button" id="search">
+                Search
+            </button>
+            <button class="col-4 button" id="current">
+                Current
+            </button>
+    </div>
+    </form>
+
+    <div class="row">
+        <div class="col-6">
+            <span class="city" id="current-city"> Rio de Janeiro </span>
+            <span class="date" id="current-date"> Thursday, 18th March 2021</span>
+            <img id="weather-icon" src="http://openweathermap.org/img/wn/10d@2x.png"/>
+            <span class="description" id="description"> Sunny </span>        
+            <strong id="daily-temperature">45</strong> <span class="units"> °C | <a href="#" id=fahrenheit-link>°F</a></span>
+        </div>
+        </div>
+        
+        
+
+        <div class=col-sm-6>
+            <ul class="weather-detail">
+                <li class="weather-wind">
+                    Wind
+        
+                    <div class="wind-speed" id="wind-element">
+                        20 km/h
+                        
+                    </div>
+                </li>
+                <li class="weather-humidity">
+                    Humidity
+                    <div class="humidity" id="humidity-element">
+                        24%
+                       
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </div>
+</div>
+<small class=open-source>
+    <a href="https://github.com/marianaknust/weather-forecast-app" target="_blank"> Open-source code</a>
+    , by Mariana Knust
+</small>
 <script src="src/app.js"></script>
 </body>
 </html>

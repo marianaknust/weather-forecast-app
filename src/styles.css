@@ -1,0 +1,55 @@
+.container {
+  font-family: monospace;
+  margin-top: 10%;
+  padding: 40px;
+  max-width: 700px;
+  min-height: 350px;
+  border: solid;
+  border-color: #ba68c8;
+  border-radius: 3%;
+  /* '  background-image: linear-gradient(-20deg, #dcb0ed 0%, #99c99c 100%);' */
+}
+
+.insert-city {
+  margin-bottom: 30px;
+}
+.scale {
+  margin-bottom: 30px;
+  text-align: right;
+}
+
+.weather-wind,
+.weather-humidity {
+  text-align: right;
+  list-style: none;
+}
+
+.city {
+  display: block;
+  font-size: 24px;
+  color: #4eae53;
+}
+
+.date {
+  display: block;
+  font-size: 16px;
+  color: #43a6f5;
+}
+
+.daily-temperature {
+  display: block;
+  color: #1eb3a9;
+  font-size: 28px;
+}
+
+.button {
+  display: block;
+  height: 30px;
+  width: 100px;
+  margin: 0 10px;
+}
+
+.open-source {
+  display: block;
+  text-align: center;
+}
