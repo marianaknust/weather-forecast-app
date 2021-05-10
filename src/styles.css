@@ -1,13 +1,14 @@
 .container {
   font-family: monospace;
   margin-top: 10%;
-  padding: 40px;
-  max-width: 700px;
-  min-height: 350px;
-  border: solid;
-  border-color: #ba68c8;
+  padding-top: 40px;
+  max-width: 500px;
+  min-height: 600px;
+  border: solid 2px #ba68c8;
   border-radius: 3%;
-  /* '  background-image: linear-gradient(-20deg, #dcb0ed 0%, #99c99c 100%);' */
+  position: relative;
+  background-image: linear-gradient(-20deg, #dcb0ed 0%, #99c99c 100%);
+
 }
 
 .insert-city {
@@ -18,32 +19,25 @@
   text-align: right;
 }
 
-.weather-wind,
-.weather-humidity {
-  text-align: right;
-  list-style: none;
+.city-date {
+  margin-left: 10px;
 }
 
 .city {
   display: block;
   font-size: 24px;
-  color: #4eae53;
+  color: #fff;
 }
 
 .date {
   display: block;
   font-size: 16px;
-  color: #43a6f5;
 }
 
 .daily-temperature {
   display: block;
   color: #1eb3a9;
   font-size: 28px;
-}
-.units a {
-  text-decoration: none;
-  color:
 }
 
 .active {
@@ -60,4 +54,19 @@
 .open-source {
   display: block;
   text-align: center;
+  position: absolute;
+  bottom: 0
+}
+
+.weather-detail-label,
+.weather-detail-value{
+  display: block;
+}
+
+.weather-detail-label {
+  font-size: 15px;
+}
+
+.weather-detail-value{
+  font-size: 25px;
 }
