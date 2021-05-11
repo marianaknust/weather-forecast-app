@@ -135,18 +135,18 @@ function displayIcon(iconId) {
     );
 }
 
-function displayFahrenheitTemperature(event) {
-    let fahrenheitTemperature = (temperature * 9 / 5) + 32;
-    displayTemperature(Math.round(fahrenheitTemperature));
+// function displayFahrenheitTemperature(event) {
+//     let fahrenheitTemperature = (temperature * 9 / 5) + 32;
+//     displayTemperature(Math.round(fahrenheitTemperature));
 
-}
+// }
 
 function displayCelsiusTemperature(event) {
     displayTemperature(temperature);
 }
 
-let fahrenheitLink = document.querySelector("#fahrenheit-link");
-fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
+// let fahrenheitLink = document.querySelector("#fahrenheit-link");
+// fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
