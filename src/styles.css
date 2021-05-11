@@ -8,7 +8,6 @@
   border-radius: 3%;
   position: relative;
   background-image: linear-gradient(-20deg, #dcb0ed 0%, #99c99c 100%);
-
 }
 
 .insert-city {
@@ -55,11 +54,11 @@
   display: block;
   text-align: center;
   position: absolute;
-  bottom: 0
+  bottom: 0;
 }
 
 .weather-detail-label,
-.weather-detail-value{
+.weather-detail-value {
   display: block;
 }
 
@@ -67,6 +66,12 @@
   font-size: 15px;
 }
 
-.weather-detail-value{
+.weather-detail-value {
   font-size: 25px;
+}
+
+
+.weather-forecast-temperature-max,
+.weather-forecast-temperature-min {
+  display: block;
 }
