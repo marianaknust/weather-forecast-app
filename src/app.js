@@ -121,7 +121,7 @@ function displayCity(city) {
 
 function displayTemperature(temperature) {
     let temperatureElement = document.querySelector("#daily-temperature");
-    temperatureElement.innerHTML = `${Math.round(temperature)}&deg;`;
+    temperatureElement.innerHTML = `${Math.round(temperature)}&deg;C`;
 }
 
 function displayWind(windSpeed) {
